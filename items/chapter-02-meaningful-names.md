@@ -6,7 +6,7 @@
   - [의도를 분명히 밝혀라](#%EC%9D%98%EB%8F%84%EB%A5%BC-%EB%B6%84%EB%AA%85%ED%9E%88-%EB%B0%9D%ED%98%80%EB%9D%BC)
   - [그릇된 정보를 피하라](#%EA%B7%B8%EB%A6%87%EB%90%9C-%EC%A0%95%EB%B3%B4%EB%A5%BC-%ED%94%BC%ED%95%98%EB%9D%BC)
   - [의미 있게 구분하라](#%EC%9D%98%EB%AF%B8-%EC%9E%88%EA%B2%8C-%EA%B5%AC%EB%B6%84%ED%95%98%EB%9D%BC)
-  - [발음하기 쉬운 이름을 사용하라.](#%EB%B0%9C%EC%9D%8C%ED%95%98%EA%B8%B0-%EC%89%AC%EC%9A%B4-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+  - [발음하기 쉬운 이름을 사용하라](#%EB%B0%9C%EC%9D%8C%ED%95%98%EA%B8%B0-%EC%89%AC%EC%9A%B4-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
   - [검색하기 쉬운 이름을 사용하라](#%EA%B2%80%EC%83%89%ED%95%98%EA%B8%B0-%EC%89%AC%EC%9A%B4-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
   - [인코딩을 피하라](#%EC%9D%B8%EC%BD%94%EB%94%A9%EC%9D%84-%ED%94%BC%ED%95%98%EB%9D%BC)
   - [자신의 기억력을 자랑하지 마라](#%EC%9E%90%EC%8B%A0%EC%9D%98-%EA%B8%B0%EC%96%B5%EB%A0%A5%EC%9D%84-%EC%9E%90%EB%9E%91%ED%95%98%EC%A7%80-%EB%A7%88%EB%9D%BC)
@@ -50,7 +50,7 @@
 - Product, ProductInfo, ProductData는 이름만 보고 용도를 구분하기 어렵다.
 - moneyAmount, customerInfo, accountData, theMessage에도 불용어가 포함되어 있다.
 
-## 발음하기 쉬운 이름을 사용하라.
+## 발음하기 쉬운 이름을 사용하라
 
 발음하기 어려운 이름은 토론하기도 어렵다.
 
