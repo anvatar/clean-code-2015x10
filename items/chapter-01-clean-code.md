@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1장. 깨끗한 코드](#1%EC%9E%A5-%EA%B9%A8%EB%81%97%ED%95%9C-%EC%BD%94%EB%93%9C)
+  - [코드가 존재하리라](#%EC%BD%94%EB%93%9C%EA%B0%80-%EC%A1%B4%EC%9E%AC%ED%95%98%EB%A6%AC%EB%9D%BC)
+  - [나쁜 코드](#%EB%82%98%EC%81%9C-%EC%BD%94%EB%93%9C)
+  - [나쁜 코드로 치르는 대가](#%EB%82%98%EC%81%9C-%EC%BD%94%EB%93%9C%EB%A1%9C-%EC%B9%98%EB%A5%B4%EB%8A%94-%EB%8C%80%EA%B0%80)
+    - [비야네 스트롭스트룹](#%EB%B9%84%EC%95%BC%EB%84%A4-%EC%8A%A4%ED%8A%B8%EB%A1%AD%EC%8A%A4%ED%8A%B8%EB%A3%B9)
+    - [그래디 부치](#%EA%B7%B8%EB%9E%98%EB%94%94-%EB%B6%80%EC%B9%98)
+    - ['큰' 데이브 토마스](#%ED%81%B0-%EB%8D%B0%EC%9D%B4%EB%B8%8C-%ED%86%A0%EB%A7%88%EC%8A%A4)
+    - [마이클 페더스](#%EB%A7%88%EC%9D%B4%ED%81%B4-%ED%8E%98%EB%8D%94%EC%8A%A4)
+    - [론 제프리스](#%EB%A1%A0-%EC%A0%9C%ED%94%84%EB%A6%AC%EC%8A%A4)
+    - [워드 커닝햄](#%EC%9B%8C%EB%93%9C-%EC%BB%A4%EB%8B%9D%ED%96%84)
+  - [우리들 생각](#%EC%9A%B0%EB%A6%AC%EB%93%A4-%EC%83%9D%EA%B0%81)
+  - [우리는 저자다](#%EC%9A%B0%EB%A6%AC%EB%8A%94-%EC%A0%80%EC%9E%90%EB%8B%A4)
+  - [보이스카우트 규칙](#%EB%B3%B4%EC%9D%B4%EC%8A%A4%EC%B9%B4%EC%9A%B0%ED%8A%B8-%EA%B7%9C%EC%B9%99)
+  - [프리퀄과 원칙](#%ED%94%84%EB%A6%AC%ED%80%84%EA%B3%BC-%EC%9B%90%EC%B9%99)
+  - [결론](#%EA%B2%B0%EB%A1%A0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 1장. 깨끗한 코드
 
 ## 코드가 존재하리라

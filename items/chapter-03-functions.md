@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [3장. 함수](#3%EC%9E%A5-%ED%95%A8%EC%88%98)
+  - [작게 만들어라!](#%EC%9E%91%EA%B2%8C-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%9D%BC)
+  - [한 가지만 해라!](#%ED%95%9C-%EA%B0%80%EC%A7%80%EB%A7%8C-%ED%95%B4%EB%9D%BC)
+  - [함수 당 추상화 수준은 하나로!](#%ED%95%A8%EC%88%98-%EB%8B%B9-%EC%B6%94%EC%83%81%ED%99%94-%EC%88%98%EC%A4%80%EC%9D%80-%ED%95%98%EB%82%98%EB%A1%9C)
+  - [Switch 문](#switch-%EB%AC%B8)
+  - [서술적인 이름을 사용하라!](#%EC%84%9C%EC%88%A0%EC%A0%81%EC%9D%B8-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+  - [함수 인수](#%ED%95%A8%EC%88%98-%EC%9D%B8%EC%88%98)
+  - [부수 효과를 일으키지 마라!](#%EB%B6%80%EC%88%98-%ED%9A%A8%EA%B3%BC%EB%A5%BC-%EC%9D%BC%EC%9C%BC%ED%82%A4%EC%A7%80-%EB%A7%88%EB%9D%BC)
+  - [명령과 조회를 분리하라!](#%EB%AA%85%EB%A0%B9%EA%B3%BC-%EC%A1%B0%ED%9A%8C%EB%A5%BC-%EB%B6%84%EB%A6%AC%ED%95%98%EB%9D%BC)
+  - [오류 코드보다 예외를 사용하라!](#%EC%98%A4%EB%A5%98-%EC%BD%94%EB%93%9C%EB%B3%B4%EB%8B%A4-%EC%98%88%EC%99%B8%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+  - [반복하지 마라!](#%EB%B0%98%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%88%EB%9D%BC)
+  - [함수를 어떻게 짜죠?](#%ED%95%A8%EC%88%98%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A7%9C%EC%A3%A0)
+  - [결론](#%EA%B2%B0%EB%A1%A0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 3장. 함수
 
 - 의도를 분명히 표현하는 함수를 어떻게 구현할 수 있을까?
