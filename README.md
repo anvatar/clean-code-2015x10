@@ -1,5 +1,7 @@
 # 클린 코드 스터디
 
+## 내용
+
 * [1장. 깨끗한 코드](items/chapter-01-clean-code.md)
 * [2장. 의미 있는 이름](items/chapter-02-meaningful-names.md)
 * [3장. 함수](items/chapter-03-functions.md)
@@ -18,3 +20,12 @@
 * [16장. SerialDate 리팩터링](items/chapter-16-refactoring-serialdate.md)
 * [17장. 냄새와 휴리스틱](items/chapter-17-smells-and-heuristics.md)
 * [부록A. 동시성 II](items/appendix-a-concurrency-ii.md)
+
+## 차례 붙이기
+
+[DocToc](https://github.com/thlorenz/doctoc)을 이용해서 각 파일 앞 부분에 차례를 붙입니다.
+
+```bash
+cd items
+doctoc .
+```
