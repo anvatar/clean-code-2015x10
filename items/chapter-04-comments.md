@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [4장. 주석](#4%EC%9E%A5-%EC%A3%BC%EC%84%9D)
+  - [주석은 나쁜 코드를 보완하지 못한다](#%EC%A3%BC%EC%84%9D%EC%9D%80-%EB%82%98%EC%81%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%B3%B4%EC%99%84%ED%95%98%EC%A7%80-%EB%AA%BB%ED%95%9C%EB%8B%A4)
+  - [코드로 의도를 표현하라!](#%EC%BD%94%EB%93%9C%EB%A1%9C-%EC%9D%98%EB%8F%84%EB%A5%BC-%ED%91%9C%ED%98%84%ED%95%98%EB%9D%BC)
+  - [좋은 주석](#%EC%A2%8B%EC%9D%80-%EC%A3%BC%EC%84%9D)
+  - [나쁜 주석](#%EB%82%98%EC%81%9C-%EC%A3%BC%EC%84%9D)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 4장. 주석
 
 우리에게 프로그래밍 언어를 치밀하게 사용해 의도를 표현할 능력이 있다면 주석은 필요하지 않을 것이다.

@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [5장. 형식 맞추기](#5%EC%9E%A5-%ED%98%95%EC%8B%9D-%EB%A7%9E%EC%B6%94%EA%B8%B0)
+  - [형식을 맞추는 목적](#%ED%98%95%EC%8B%9D%EC%9D%84-%EB%A7%9E%EC%B6%94%EB%8A%94-%EB%AA%A9%EC%A0%81)
+  - [세로 형식 맞추기](#%EC%84%B8%EB%A1%9C-%ED%98%95%EC%8B%9D-%EB%A7%9E%EC%B6%94%EA%B8%B0)
+  - [가로 형식 맞추기](#%EA%B0%80%EB%A1%9C-%ED%98%95%EC%8B%9D-%EB%A7%9E%EC%B6%94%EA%B8%B0)
+  - [팀 규칙](#%ED%8C%80-%EA%B7%9C%EC%B9%99)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 5장. 형식 맞추기
 
 코드가 어수선해 보인다면 독자들은 프로젝트의 다른 측면도 똑같이 무성의한 태도로 처리했으리라 생각할 것이다.
