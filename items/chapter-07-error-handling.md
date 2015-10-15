@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [7장. 오류 처리](#7%EC%9E%A5-%EC%98%A4%EB%A5%98-%EC%B2%98%EB%A6%AC)
+  - [오류 코드보다 예외를 사용하라](#%EC%98%A4%EB%A5%98-%EC%BD%94%EB%93%9C%EB%B3%B4%EB%8B%A4-%EC%98%88%EC%99%B8%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+  - [Try-Catch-Finally 문부터 작성하라](#try-catch-finally-%EB%AC%B8%EB%B6%80%ED%84%B0-%EC%9E%91%EC%84%B1%ED%95%98%EB%9D%BC)
+  - [*unchecked* 예외를 사용하라.](#unchecked-%EC%98%88%EC%99%B8%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+  - [예외에 의미를 제공하라](#%EC%98%88%EC%99%B8%EC%97%90-%EC%9D%98%EB%AF%B8%EB%A5%BC-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%9D%BC)
+  - [호출자를 고려해 예외 클래스를 정의하라](#%ED%98%B8%EC%B6%9C%EC%9E%90%EB%A5%BC-%EA%B3%A0%EB%A0%A4%ED%95%B4-%EC%98%88%EC%99%B8-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A5%BC-%EC%A0%95%EC%9D%98%ED%95%98%EB%9D%BC)
+  - [정상 흐름을 정의하라](#%EC%A0%95%EC%83%81-%ED%9D%90%EB%A6%84%EC%9D%84-%EC%A0%95%EC%9D%98%ED%95%98%EB%9D%BC)
+  - [null을 반환하지 마라](#null%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%98%EC%A7%80-%EB%A7%88%EB%9D%BC)
+  - [null을 전달하지 마라](#null%EC%9D%84-%EC%A0%84%EB%8B%AC%ED%95%98%EC%A7%80-%EB%A7%88%EB%9D%BC)
+  - [결론](#%EA%B2%B0%EB%A1%A0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 7장. 오류 처리
 
 오류 처리도 프로그램에 반드시 필요한 요소 중 하나다.
