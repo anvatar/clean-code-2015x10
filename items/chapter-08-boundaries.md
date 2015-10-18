@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [8장. 경계](#8%EC%9E%A5-%EA%B2%BD%EA%B3%84)
+  - [외부 코드 사용하기](#%EC%99%B8%EB%B6%80-%EC%BD%94%EB%93%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+  - [경계 살피고 익히기](#%EA%B2%BD%EA%B3%84-%EC%82%B4%ED%94%BC%EA%B3%A0-%EC%9D%B5%ED%9E%88%EA%B8%B0)
+  - [사례: log4j 익히기](#%EC%82%AC%EB%A1%80-log4j-%EC%9D%B5%ED%9E%88%EA%B8%B0)
+  - [학습 테스트는 공짜 이상이다](#%ED%95%99%EC%8A%B5-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%8A%94-%EA%B3%B5%EC%A7%9C-%EC%9D%B4%EC%83%81%EC%9D%B4%EB%8B%A4)
+  - [아직 존재하지 않는 코드를 사용하기](#%EC%95%84%EC%A7%81-%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+  - [깨끗한 경계](#%EA%B9%A8%EB%81%97%ED%95%9C-%EA%B2%BD%EA%B3%84)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 8장. 경계
 
 ## 외부 코드 사용하기

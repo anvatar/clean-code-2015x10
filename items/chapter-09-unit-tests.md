@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [9장. 단위 테스트](#9%EC%9E%A5-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8)
+  - [TDD 법칙 세 가지](#tdd-%EB%B2%95%EC%B9%99-%EC%84%B8-%EA%B0%80%EC%A7%80)
+  - [깨끗한 테스트 코드 유지하기](#%EA%B9%A8%EB%81%97%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9C%A0%EC%A7%80%ED%95%98%EA%B8%B0)
+  - [깨끗한 테스트 코드](#%EA%B9%A8%EB%81%97%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C)
+  - [테스트 당 assert 하나?](#%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8B%B9-assert-%ED%95%98%EB%82%98)
+  - [F.I.R.S.T](#first)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 9장. 단위 테스트
 
 테스트를 추가에만 급급한 나머지 제대로 된 테스트 케이스를 작성해야 한다는 중요한 사실을 놓치고 있지는 않은가?
