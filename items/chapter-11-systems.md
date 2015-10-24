@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [11장. 시스템](#11%EC%9E%A5-%EC%8B%9C%EC%8A%A4%ED%85%9C)
+  - [시스템 생성(construction)과 시스템 사용(use)을 분리하라](#%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%83%9D%EC%84%B1construction%EA%B3%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%82%AC%EC%9A%A9use%EC%9D%84-%EB%B6%84%EB%A6%AC%ED%95%98%EB%9D%BC)
+  - [확장](#%ED%99%95%EC%9E%A5)
+  - [관점 지향 프로그래밍](#%EA%B4%80%EC%A0%90-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+    - [자바 프록시](#%EC%9E%90%EB%B0%94-%ED%94%84%EB%A1%9D%EC%8B%9C)
+    - [순수 자바 AOP 프레임워크](#%EC%88%9C%EC%88%98-%EC%9E%90%EB%B0%94-aop-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)
+    - [AspectJ 관점](#aspectj-%EA%B4%80%EC%A0%90)
+  - [테스트 주도 시스템 아키텍처 구축](#%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A3%BC%EB%8F%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EA%B5%AC%EC%B6%95)
+  - [시스템은 도메인 특화 언어가 필요하다](#%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%ED%8A%B9%ED%99%94-%EC%96%B8%EC%96%B4%EA%B0%80-%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 11장. 시스템
 
 시스템이라는 높은 추상화 수준에서도 깨끗함을 유지하는 방법
@@ -64,7 +80,7 @@ AOP(aspect-oriented programming)
 
 ### 자바 프록시
 
-개별 객체나 클래스에서 메서드 호출을 감싸는 경우와 같은 단순한 상황에 적합.
+개별 객체나 메서드 호출을 감싸는 경우와 같은 단순한 상황에 적합.
 
 - 인터페이스에 대한 프록시: JDK가 지원(동적 프록시 기능)
 - 클래스에 대한 프록시: 바이트코드 처리 라이브러리(CGLIB, ASM, Javassist 등) 필요
@@ -85,7 +101,7 @@ Bank 인터페이스 예
     - 테스트 하기 쉽다.
     - 올바르게 구현하기 쉽다.
     - 유지보수하기 쉽다.
-- 설정 파일이나 어노테이션으로 애플리케이션 기반 구조를 구성할 수 있음.
+- 애플리케이션 기반 구조는 설정 파일이나 어노테이션으로 구성
     - 영속성, 트랜잭션, 보안, 캐시, 장애조치 등의 횡단 관심사 포함
     - 사용자 모르게 프록시나 바이트코드 라이브러리로 횡단 관심사 구현
     - 프레임워크 내 DI 컨테이너가 의존성 주입
@@ -105,10 +121,9 @@ Bank 인터페이스 예
 - 관점이나 그와 유사한 도구를 사용해 도메인 로직을 통합
 - 변화하는 환경에 대처해 진로를 변경할 수 있음.
 
-의사 결정을 최적화하라.
+관심사를 모듈로 분리한 POJO 시스템은 기민하다.
 
-- 최대한 정보를 모아 최선의 결정을 내려라.
-- 관심사를 모듈로 분리한 POJO 시스템의 기민함을 필요로 함.
+- 최신 정보에 기반해 최선의 시점에 최적의 결정을 내리기 쉽다.
 
 명백한 가치가 있을 때만 표준을 현명하게 사용하라.
 
