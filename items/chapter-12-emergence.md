@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [12장. 창발성](#12%EC%9E%A5-%EC%B0%BD%EB%B0%9C%EC%84%B1)
+  - [모든 테스트를 실행하라](#%EB%AA%A8%EB%93%A0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%9D%BC)
+  - [중복을 없애라](#%EC%A4%91%EB%B3%B5%EC%9D%84-%EC%97%86%EC%95%A0%EB%9D%BC)
+  - [표현하라](#%ED%91%9C%ED%98%84%ED%95%98%EB%9D%BC)
+  - [클래스와 메서드 수를 최소로 줄여라](#%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%88%98%EB%A5%BC-%EC%B5%9C%EC%86%8C%EB%A1%9C-%EC%A4%84%EC%97%AC%EB%9D%BC)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 12장. 창발성
 
 켄트 벡의 **단순한 설계** 규칙 (중요도 순)
